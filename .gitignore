@@ -4,6 +4,10 @@
 *.tfstate.*
 crash.log
 crash.*.log
+.terraform.lock.hcl
+terraform.tfvars
+*.pem
+*.key
 
 # Terraform Variables (sensitive data)
 *.auto.tfvars
